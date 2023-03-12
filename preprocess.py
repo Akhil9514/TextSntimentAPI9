@@ -2,6 +2,9 @@
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import re
+import nltk
+nltk.download('stopwords')
+
 def preprocess(line):
     ps = PorterStemmer()
 
