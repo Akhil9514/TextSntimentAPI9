@@ -1,7 +1,7 @@
+gunicorn
 flask
 pandas
 numpy
-sklearn
-pickle
+scikit-learn
 tensorflow
 preprocess
